@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "duration_seconds": 120.09399999998277,
+  "frames": 1921024,
+  "written_frames": 1921024,
+  "recording_status": "complete",
+  "four_track_tail_exact": true,
+  "embedding_jobs": 58,
+  "stats": {
+    "input_dbfs": -96.06631469726562,
+    "output_dbfs": -96.53809356689453,
+    "reference_dbfs": -160.0,
+    "xruns": 0,
+    "deadline_misses": 0,
+    "clipped_blocks": 0,
+    "noise_profile": false,
+    "noise_learning": false,
+    "aec_adapt": true,
+    "processing_ms": 0.5385000258684158
+  },
+  "playback": {
+    "position_frames": 984320,
+    "underruns": 0,
+    "error": "",
+    "gain": 0
+  },
+  "peak_observed_processing_ms": 0.7440999615937471,
+  "memory_samples": [
+    {
+      "seconds": 20.04700000002049,
+      "gui": 1352581120,
+      "audio": 1124454400,
+      "recorder": 1106354176
+    },
+    {
+      "seconds": 40.07799999997951,
+      "gui": 1352581120,
+      "audio": 1124454400,
+      "recorder": 1106354176
+    },
+    {
+      "seconds": 60.07799999997951,
+      "gui": 1353216000,
+      "audio": 1124483072,
+      "recorder": 1106247680
+    },
+    {
+      "seconds": 80.01600000000326,
+      "gui": 1353216000,
+      "audio": 1124483072,
+      "recorder": 1106247680
+    },
+    {
+      "seconds": 100.06199999997625,
+      "gui": 1353216000,
+      "audio": 1124483072,
+      "recorder": 1106247680
+    },
+    {
+      "seconds": 120.09399999998277,
+      "gui": 1353216000,
+      "audio": 1124483072,
+      "recorder": 1106247680
+    }
+  ],
+  "phases": [
+    "browse",
+    "entire",
+    "follow"
+  ],
+  "recording_files_temporary": true,
+  "captured_audio_retained": false,
+  "scope": "real microphone, silent live output, complete session recording, UI + public-clip embeddings; silent historical output/seek/track switch",
+  "temporary_recordings_removed": true
+}

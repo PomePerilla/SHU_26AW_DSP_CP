@@ -1,0 +1,143 @@
+{
+  "project": "声境 / DSP Studio",
+  "primary_task": "连接麦克风，连续处理并试听语音，观察波形、频谱和组员识别结果",
+  "layout": "monitor-analysis",
+  "source_context": [
+    "audio_session",
+    "input_device",
+    "output_device",
+    "profile_name"
+  ],
+  "actions": {
+    "primary": "启动 / 停止实时处理",
+    "secondary": [
+      "导出最近30秒",
+      "学习环境噪声",
+      "注册组员"
+    ],
+    "analysis": [
+      "波形",
+      "频谱",
+      "运行详情"
+    ],
+    "more": [
+      "外观",
+      "使用说明"
+    ]
+  },
+  "states": [
+    "preparing",
+    "idle",
+    "running",
+    "noise_learning",
+    "enrolling",
+    "waiting",
+    "failed",
+    "stopped"
+  ],
+  "languages": [
+    "zh_CN"
+  ],
+  "minimum_window": [
+    900,
+    580
+  ],
+  "verification": {
+    "sizes": [
+      [
+        900,
+        580
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scales": [
+      1,
+      1.5,
+      2
+    ],
+    "performance": "保留独立音频进程；界面与后台声纹并发25秒，无新增音频欠载或超时；只读显示不重启音频"
+  },
+  "token_overrides": {
+    "fonts": {
+      "ui": [
+        "Microsoft YaHei UI",
+        "Segoe UI",
+        "sans-serif"
+      ]
+    },
+    "colors": {
+      "light": {
+        "workspace": "#FAFAFA",
+        "surface": "#FFFFFF",
+        "bar": "#F4F4F5",
+        "text": "#18181B",
+        "muted": "#62626C",
+        "border": "#E4E4E7",
+        "hover": "#F4F4F5",
+        "alternate": "#FAFAFA",
+        "disabled": "#8E8E98",
+        "primary": "#18181B",
+        "primary_text": "#FAFAFA",
+        "primary_hover": "#27272A",
+        "primary_pressed": "#3F3F46",
+        "accent": "#18181B",
+        "selection": "#EDEDF0",
+        "error": "#B42318",
+        "success": "#216B42",
+        "warning": "#855A10"
+      },
+      "dark": {
+        "workspace": "#101012",
+        "surface": "#18181B",
+        "bar": "#202023",
+        "text": "#F4F4F5",
+        "muted": "#A1A1AA",
+        "border": "#303035",
+        "hover": "#27272A",
+        "alternate": "#1C1C1F",
+        "disabled": "#71717A",
+        "primary": "#F4F4F5",
+        "primary_text": "#18181B",
+        "primary_hover": "#E4E4E7",
+        "primary_pressed": "#D4D4D8",
+        "accent": "#F4F4F5",
+        "selection": "#2C2C30",
+        "error": "#F18C86",
+        "success": "#80C9A0",
+        "warning": "#E4B76C"
+      }
+    },
+    "metrics": {
+      "radius": 6,
+      "control_height": 32,
+      "row_height": 32
+    }
+  },
+  "presentation": {
+    "direction": "OpenStatus-inspired Operational Minimalism",
+    "default_theme": "dark",
+    "semantic_colors": {
+      "light": {
+        "chart_raw": "#73737D",
+        "chart_processed": "#2563B4",
+        "info": "#215DAD"
+      },
+      "dark": {
+        "chart_raw": "#A1A1AA",
+        "chart_processed": "#73A9EF",
+        "info": "#91B9EF"
+      }
+    }
+  }
+}

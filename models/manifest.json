@@ -1,0 +1,7 @@
+{
+  "file": "3dspeaker_speech_campplus_sv_zh-cn_16k-common.onnx",
+  "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_zh-cn_16k-common.onnx",
+  "bytes": 28281138,
+  "sha256": "f682b514c05d947ee3fa91cd6ec6c5c7543479a128373fa29b1faedccd21fd11",
+  "publisher_sha256_available": false
+}

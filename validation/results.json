@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-28",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "callback_benchmark": {
+    "kind": "synthetic callback loop, not paced by audio hardware",
+    "blocks": 1200,
+    "simulated_audio_seconds": 19.2,
+    "block_budget_ms": 16.0,
+    "mean_ms": 0.8065846670312263,
+    "p95_ms": 1.0324050032068044,
+    "p99_ms": 1.2399679826921783,
+    "max_ms": 1.7949999892152846,
+    "over_budget_blocks": 0,
+    "all_modules_enabled": true
+  },
+  "synthetic_signals": {
+    "source": "seeded Gaussian signal and linear synthetic echo path",
+    "aec_erle_db_last_2s": 61.21539306640625,
+    "near_end_speech_present": false,
+    "digital_inverse_max_abs_error": 5.960464477539063e-08,
+    "not_physical_room_acceptance": true
+  },
+  "public_speaker": {
+    "executed": true,
+    "model": {
+      "model": "3dspeaker_speech_campplus_sv_zh-cn_16k-common.onnx",
+      "dimension": 192
+    },
+    "source": "public upstream recordings, not team members",
+    "registration_and_test_files_disjoint": true,
+    "example_embedding_seconds": 0.048327700002118945,
+    "example_audio_seconds": 5.5728125,
+    "checks": [
+      {
+        "file": "fangjun-test-sr-2.wav",
+        "expected": "公开样本A",
+        "result": {
+          "name": "公开样本A",
+          "accepted": true,
+          "similarity": 0.7101121544837952,
+          "margin": 0.6352667063474655,
+          "rankings": [
+            {
+              "name": "公开样本A",
+              "similarity": 0.7101121544837952
+            },
+            {
+              "name": "公开样本B",
+              "similarity": 0.07484544813632965
+            }
+          ],
+          "threshold": 0.55,
+          "margin_threshold": 0.05
+        },
+        "passed": true
+      },
+      {
+        "file": "leijun-test-sr-2.wav",
+        "expected": "公开样本B",
+        "result": {
+          "name": "公开样本B",
+          "accepted": true,
+          "similarity": 0.8199828863143921,
+          "margin": 0.7466766089200974,
+          "rankings": [
+            {
+              "name": "公开样本B",
+              "similarity": 0.8199828863143921
+            },
+            {
+              "name": "公开样本A",
+              "similarity": 0.07330627739429474
+            }
+          ],
+          "threshold": 0.55,
+          "margin_threshold": 0.05
+        },
+        "passed": true
+      },
+      {
+        "file": "liudehua-test-sr-1.wav",
+        "expected": "未知说话人",
+        "result": {
+          "name": "未知说话人",
+          "accepted": false,
+          "similarity": 0.3918569087982178,
+          "margin": 0.44978131353855133,
+          "rankings": [
+            {
+              "name": "公开样本B",
+              "similarity": 0.3918569087982178
+            },
+            {
+              "name": "公开样本A",
+              "similarity": -0.05792440474033356
+            }
+          ],
+          "threshold": 0.55,
+          "margin_threshold": 0.05
+        },
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "hardware": {
+    "executed": true,
+    "duration_seconds": 3.0002913999778684,
+    "devices": {
+      "input": {
+        "name": "麦克风阵列 (适用于数字麦克风的英特尔® 智音技术)",
+        "index": 1,
+        "hostapi": 0,
+        "max_input_channels": 6,
+        "max_output_channels": 0,
+        "default_low_input_latency": 0.09,
+        "default_low_output_latency": 0.09,
+        "default_high_input_latency": 0.18,
+        "default_high_output_latency": 0.18,
+        "default_samplerate": 44100.0
+      },
+      "output": {
+        "name": "扬声器 (Realtek(R) Audio)",
+        "index": 3,
+        "hostapi": 0,
+        "max_input_channels": 0,
+        "max_output_channels": 2,
+        "default_low_input_latency": 0.09,
+        "default_low_output_latency": 0.09,
+        "default_high_input_latency": 0.18,
+        "default_high_output_latency": 0.18,
+        "default_samplerate": 44100.0
+      }
+    },
+    "sample_count": 47360,
+    "stats": {
+      "input_dbfs": -94.94657897949219,
+      "output_dbfs": -95.52649688720703,
+      "reference_dbfs": -160.0,
+      "xruns": 0,
+      "deadline_misses": 0,
+      "clipped_blocks": 0,
+      "noise_profile": false,
+      "noise_learning": false,
+      "aec_adapt": true,
+      "processing_ms": 0.6699000077787787
+    },
+    "error": "",
+    "stream_was_active": true,
+    "reported_io_latency_seconds": [
+      0.016,
+      0.096
+    ],
+    "output": "silence; no reference playback or monitoring",
+    "microphone_audio_saved": false,
+    "scope": "transport/processing short run only; not speech quality or real room AEC"
+  },
+  "not_executed": [
+    "real project-member identification",
+    "real-room echo attenuation and double-talk",
+    "10-minute live endurance",
+    "acoustic loopback end-to-end latency"
+  ]
+}

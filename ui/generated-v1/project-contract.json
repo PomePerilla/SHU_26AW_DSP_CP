@@ -1,0 +1,98 @@
+{
+  "project": "声境 / DSP Studio",
+  "primary_task": "连接麦克风，连续处理并试听语音，观察波形、频谱和组员识别结果",
+  "layout": "monitor-analysis",
+  "source_context": [
+    "audio_session",
+    "input_device",
+    "output_device",
+    "profile_name"
+  ],
+  "actions": {
+    "primary": "启动 / 停止实时处理",
+    "secondary": [
+      "导出最近30秒",
+      "学习环境噪声",
+      "注册组员"
+    ],
+    "analysis": [
+      "波形",
+      "频谱",
+      "运行详情"
+    ],
+    "more": [
+      "外观",
+      "使用说明"
+    ]
+  },
+  "states": [
+    "preparing",
+    "idle",
+    "running",
+    "noise_learning",
+    "enrolling",
+    "waiting",
+    "failed",
+    "stopped"
+  ],
+  "languages": [
+    "zh_CN"
+  ],
+  "minimum_window": [
+    900,
+    580
+  ],
+  "verification": {
+    "sizes": [
+      [
+        900,
+        580
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scales": [
+      1,
+      1.5,
+      2
+    ],
+    "performance": "保留独立音频进程；界面与后台声纹并发25秒，无新增音频欠载或超时；只读显示不重启音频"
+  },
+  "token_overrides": {
+    "fonts": {
+      "ui": [
+        "Microsoft YaHei UI",
+        "Segoe UI",
+        "sans-serif"
+      ]
+    },
+    "colors": {
+      "light": {
+        "primary": "#176F83",
+        "primary_text": "#FFFFFF",
+        "primary_hover": "#135D70",
+        "primary_pressed": "#104E60",
+        "accent": "#176F83",
+        "selection": "#E0F1F2"
+      },
+      "dark": {
+        "primary": "#176F83",
+        "primary_text": "#FFFFFF",
+        "primary_hover": "#135D70",
+        "primary_pressed": "#104E60",
+        "accent": "#73C8C4",
+        "selection": "#18353A"
+      }
+    }
+  }
+}

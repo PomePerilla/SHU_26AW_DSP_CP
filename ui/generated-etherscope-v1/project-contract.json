@@ -1,0 +1,162 @@
+{
+  "project": "DSP Studio",
+  "primary_task": "连接麦克风，连续处理并试听语音，观察波形、频谱和组员识别结果",
+  "layout": "monitor-analysis",
+  "source_context": [
+    "audio_session",
+    "input_device",
+    "output_device",
+    "profile_name"
+  ],
+  "actions": {
+    "primary": "启动 / 停止实时处理",
+    "secondary": [
+      "导出最近30秒",
+      "学习环境噪声",
+      "注册组员"
+    ],
+    "analysis": [
+      "波形",
+      "频谱",
+      "运行详情"
+    ],
+    "more": [
+      "外观",
+      "使用说明"
+    ]
+  },
+  "states": [
+    "preparing",
+    "idle",
+    "running",
+    "noise_learning",
+    "enrolling",
+    "waiting",
+    "failed",
+    "stopped"
+  ],
+  "languages": [
+    "zh_CN"
+  ],
+  "minimum_window": [
+    900,
+    580
+  ],
+  "verification": {
+    "sizes": [
+      [
+        900,
+        580
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scales": [
+      1,
+      1.5,
+      2
+    ],
+    "performance": "保留独立音频进程；界面与后台声纹并发25秒，无新增音频欠载或超时；只读显示不重启音频"
+  },
+  "token_overrides": {
+    "colors": {
+      "dark": {
+        "workspace": "#111315",
+        "surface": "#17191C",
+        "bar": "#1D2024",
+        "text": "#E8EAED",
+        "muted": "#A8ADB5",
+        "border": "#34383E",
+        "hover": "#292D32",
+        "alternate": "#1B1D21",
+        "disabled": "#747B85",
+        "primary": "#D8B43C",
+        "primary_text": "#16181B",
+        "primary_hover": "#E7C654",
+        "primary_pressed": "#C6A12C",
+        "accent": "#D8B43C",
+        "selection": "#302B1C",
+        "error": "#F0807C",
+        "success": "#69B9A5",
+        "warning": "#E5BC68"
+      },
+      "light": {
+        "workspace": "#F3F4F6",
+        "surface": "#FFFFFF",
+        "bar": "#ECEEF1",
+        "text": "#24282E",
+        "muted": "#5D6571",
+        "border": "#D4D8DE",
+        "hover": "#E1E4E8",
+        "alternate": "#F8F9FA",
+        "disabled": "#7B838E",
+        "primary": "#D8B43C",
+        "primary_text": "#16181B",
+        "primary_hover": "#E7C654",
+        "primary_pressed": "#C6A12C",
+        "accent": "#795B00",
+        "selection": "#F6ECC8",
+        "error": "#B42318",
+        "success": "#246E5B",
+        "warning": "#795B00"
+      }
+    },
+    "fonts": {
+      "ui": [
+        "Segoe UI",
+        "Microsoft YaHei UI",
+        "Noto Sans CJK SC",
+        "sans-serif"
+      ],
+      "data": [
+        "Consolas",
+        "Cascadia Mono",
+        "Noto Sans Mono",
+        "monospace"
+      ]
+    },
+    "metrics": {
+      "font_size": 13,
+      "control_height": 30,
+      "row_height": 26,
+      "title_height": 28,
+      "radius": 1,
+      "splitter_hit": 5,
+      "icon_size": 20,
+      "icon_stroke": 1.8,
+      "space_1": 4,
+      "space_2": 8,
+      "space_3": 12,
+      "space_4": 16
+    }
+  },
+  "presentation": {
+    "direction": "EtherScope 2.3.0 compact workbench",
+    "qt_corner_radius": 0,
+    "default_theme": "dark",
+    "semantic_colors": {
+      "dark": {
+        "chart_raw": "#A8ADB5",
+        "chart_processed": "#D8B43C",
+        "info": "#A8ADB5"
+      },
+      "light": {
+        "chart_raw": "#5D6571",
+        "chart_processed": "#795B00",
+        "info": "#5D6571"
+      }
+    },
+    "reference_program": "D:/PRJ/20261012_计算机网络/output/EtherScope-2.3.0-preview/EtherScope.exe",
+    "reference_executable_sha256": "B351B3D6DA015D830F44FF6936B2FB76C3BF44B15041046E3B84BAE9E9ED5C4C"
+  }
+}

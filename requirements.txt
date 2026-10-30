@@ -1,0 +1,8 @@
+numpy>=2.2,<3
+scipy>=1.15,<2
+soundfile>=0.13,<1
+sounddevice>=0.5,<1
+numba>=0.61,<1
+PySide6-Essentials>=6.8,<7
+pyqtgraph>=0.13,<1
+sherpa-onnx>=1.12,<3

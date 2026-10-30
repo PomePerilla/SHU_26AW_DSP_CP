@@ -1,0 +1,8 @@
+{
+  "dsp_lab/core.py": "6b3c679a6f5b0c742f13c5ac5f1fa0912054880ef91619bdac7584b5c50df32e",
+  "dsp_lab/audio.py": "231afcd6084f6b18f58f992c2d2b593aa4db37e0d6c00faf3424a5102c4b0c1d",
+  "dsp_lab/audio_process.py": "c1b9b55a29c65b23f4244938bea71c7caaa5ea0c045ce4cd63969ecb67310058",
+  "dsp_lab/speaker.py": "786fe801cd178feb57170cc71615c7c017073ef7129e6f324dd5eaba197a106e",
+  "requirements.txt": "1c1c5931a615a87cc0793d784f550b0d08bec519fe91d394e0cfbac447b0b3e4",
+  "requirements-lock.txt": "ee3505c894cb4d020a0c50862f1094c5077bf2a7d7e92272a2abbc3a1806b9e1"
+}

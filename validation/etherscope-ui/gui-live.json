@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "gui_pid": 83224,
+  "audio_pid": 65108,
+  "duration_seconds": 25.046999999991385,
+  "model_embedding_jobs_submitted": 13,
+  "stats": {
+    "input_dbfs": -22.48048973083496,
+    "output_dbfs": -25.06003189086914,
+    "reference_dbfs": -160.0,
+    "xruns": 0,
+    "deadline_misses": 0,
+    "clipped_blocks": 0,
+    "noise_profile": true,
+    "noise_learning": false,
+    "aec_adapt": true,
+    "processing_ms": 0.5008000007364899
+  },
+  "error": "",
+  "audio_samples_seen": 400128,
+  "peak_observed_processing_ms": 0.7671999919693917,
+  "scope": "live Qt plots, background public-clip embeddings, actual microphone, silent output",
+  "raw_audio_saved": false,
+  "monitor_or_reference_played": false,
+  "passed": true
+}

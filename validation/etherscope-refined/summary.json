@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-29",
+  "formal_name": "DSP Studio",
+  "current_theme": "ui/generated-etherscope-v2",
+  "qt_corner_radius": 0,
+  "toolbar_breakpoint": 1120,
+  "layout_checks": [
+    {
+      "dpr": 1.0,
+      "assertions": 103,
+      "passed": true
+    },
+    {
+      "dpr": 1.5,
+      "assertions": 103,
+      "passed": true
+    },
+    {
+      "dpr": 2.0,
+      "assertions": 103,
+      "passed": true
+    }
+  ],
+  "native_window_checks": {
+    "platform": "windows",
+    "dpr": 2.0,
+    "assertions": 17,
+    "passed": true
+  },
+  "generated_files_consistent": 14,
+  "contrast_pairs": 20,
+  "python_compile_check": "passed",
+  "audio_frame_and_dependency_hashes": [
+    {
+      "file": "core.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio_process.py",
+      "unchanged": true
+    },
+    {
+      "file": "speaker.py",
+      "unchanged": true
+    },
+    {
+      "file": "window_frame.py",
+      "unchanged": true
+    },
+    {
+      "file": "requirements.txt",
+      "unchanged": true
+    },
+    {
+      "file": "requirements-lock.txt",
+      "unchanged": true
+    }
+  ],
+  "live_audio": {
+    "duration_seconds": 25.062999999994645,
+    "embedding_jobs": 13,
+    "xruns": 0,
+    "deadline_misses": 0,
+    "clipped_blocks": 0,
+    "passed": true
+  },
+  "profiles_file_exists": false,
+  "boundaries": [
+    "UI source/transport/profile fixtures are controlled",
+    "200 percent offscreen virtual screen smaller than app; popup also checked on real Windows display",
+    "mixed-monitor DPI drag, snap, screen reader, listening, room AEC, real-team accuracy, endurance not newly accepted",
+    "unchanged DSP regression suite not rerun this round"
+  ],
+  "passed": true
+}

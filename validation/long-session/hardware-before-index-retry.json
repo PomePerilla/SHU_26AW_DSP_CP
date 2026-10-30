@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "error": "{'status': 'error', 'folder': 'C:\\\\Users\\\\xande\\\\AppData\\\\Local\\\\Temp\\\\dsp-hardware-recording-u4srylqg\\\\20261030-115502-240136', 'frames': 615680, 'error': \"[WinError 5] 拒绝访问。: 'C:\\\\\\\\Users\\\\\\\\xande\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\dsp-hardware-recording-u4srylqg\\\\\\\\20261030-115502-240136\\\\\\\\session.tmp' -> 'C:\\\\\\\\Users\\\\\\\\xande\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\dsp-hardware-recording-u4srylqg\\\\\\\\20261030-115502-240136\\\\\\\\session.json'\"}",
+  "phases": [
+    "browse"
+  ],
+  "memory_samples": [
+    {
+      "seconds": 20.030999999959022,
+      "gui": 1352593408,
+      "audio": 1124610048,
+      "recorder": 1106010112
+    }
+  ],
+  "recording_files_temporary": true,
+  "captured_audio_retained": false,
+  "temporary_recordings_removed": true
+}

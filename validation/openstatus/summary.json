@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-28",
+  "style": "OpenStatus-inspired",
+  "unchanged_core_and_dependencies": {
+    "dsp_lab/core.py": true,
+    "dsp_lab/audio.py": true,
+    "dsp_lab/audio_process.py": true,
+    "dsp_lab/speaker.py": true,
+    "requirements.txt": true,
+    "requirements-lock.txt": true
+  },
+  "ui_scale_checks": [
+    {
+      "scale": "1",
+      "passed": true,
+      "assertions": 48
+    },
+    {
+      "scale": "1.5",
+      "passed": true,
+      "assertions": 48
+    },
+    {
+      "scale": "2",
+      "passed": true,
+      "assertions": 48
+    }
+  ],
+  "live_audio": {
+    "date": "2026-10-28",
+    "gui_pid": 63932,
+    "audio_pid": 69216,
+    "duration_seconds": 25.062000000005355,
+    "model_embedding_jobs_submitted": 13,
+    "stats": {
+      "input_dbfs": -28.665773391723633,
+      "output_dbfs": -28.628082275390625,
+      "reference_dbfs": -160.0,
+      "xruns": 0,
+      "deadline_misses": 0,
+      "clipped_blocks": 0,
+      "noise_profile": true,
+      "noise_learning": false,
+      "aec_adapt": true,
+      "processing_ms": 0.5096000095363706
+    },
+    "error": "",
+    "audio_samples_seen": 394496,
+    "peak_observed_processing_ms": 0.8542000141460449,
+    "scope": "live Qt plots, background public-clip embeddings, actual microphone, silent output",
+    "raw_audio_saved": false,
+    "monitor_or_reference_played": false,
+    "passed": true
+  },
+  "regression": "8 passed",
+  "native_review": [
+    "dark main window",
+    "diagnostics",
+    "idle with microphone closed"
+  ],
+  "not_executed": [
+    "native mixed-DPI cross-monitor dragging",
+    "real project-member and acoustic-room acceptance",
+    "10-minute endurance"
+  ]
+}

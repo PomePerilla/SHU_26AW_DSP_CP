@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "no_automatic_recording_in_test",
+      "passed": true
+    },
+    {
+      "name": "settings_is_fourth_tab",
+      "passed": true
+    },
+    {
+      "name": "default_span_ten_seconds",
+      "passed": true
+    },
+    {
+      "name": "vertical_axes_locked_by_default",
+      "passed": true
+    },
+    {
+      "name": "native_plot_menus_disabled",
+      "passed": true
+    },
+    {
+      "name": "auto_zoom_buttons_hidden",
+      "passed": true
+    },
+    {
+      "name": "session_dialog_lists_complete_recording",
+      "passed": true
+    },
+    {
+      "name": "live_time_axis_is_absolute",
+      "passed": true
+    },
+    {
+      "name": "entire_session_includes_older_than_ring",
+      "passed": true
+    },
+    {
+      "name": "wheel_zoom_changes_only_x",
+      "passed": true
+    },
+    {
+      "name": "manual_input_disables_follow",
+      "passed": true
+    },
+    {
+      "name": "drag_cannot_move_vertical_axis",
+      "passed": true
+    },
+    {
+      "name": "settings_can_unlock_y",
+      "passed": true
+    },
+    {
+      "name": "reset_restores_standard_y_and_follow",
+      "passed": true
+    },
+    {
+      "name": "plot_menu_stays_disabled_after_interaction",
+      "passed": true
+    },
+    {
+      "name": "spectrum_y_unlocks_independently",
+      "passed": true
+    },
+    {
+      "name": "span_setting_applies_immediately",
+      "passed": true
+    },
+    {
+      "name": "history_has_explicit_source",
+      "passed": true
+    },
+    {
+      "name": "history_disables_live_actions",
+      "passed": true
+    },
+    {
+      "name": "history_keeps_playback_and_output",
+      "passed": true
+    },
+    {
+      "name": "history_hides_live_recognition",
+      "passed": true
+    },
+    {
+      "name": "history_dark_900_size",
+      "passed": true
+    },
+    {
+      "name": "history_dark_900_controls_fit",
+      "passed": true
+    },
+    {
+      "name": "history_dark_1024_size",
+      "passed": true
+    },
+    {
+      "name": "history_dark_1024_controls_fit",
+      "passed": true
+    },
+    {
+      "name": "history_dark_1440_size",
+      "passed": true
+    },
+    {
+      "name": "history_dark_1440_controls_fit",
+      "passed": true
+    },
+    {
+      "name": "history_light_900_size",
+      "passed": true
+    },
+    {
+      "name": "history_light_900_controls_fit",
+      "passed": true
+    },
+    {
+      "name": "history_light_1024_size",
+      "passed": true
+    },
+    {
+      "name": "history_light_1024_controls_fit",
+      "passed": true
+    },
+    {
+      "name": "history_light_1440_size",
+      "passed": true
+    },
+    {
+      "name": "history_light_1440_controls_fit",
+      "passed": true
+    },
+    {
+      "name": "seek_moves_cursor_to_session_time",
+      "passed": true
+    },
+    {
+      "name": "track_switch_keeps_position",
+      "passed": true
+    },
+    {
+      "name": "return_live_releases_history_and_player",
+      "passed": true
+    },
+    {
+      "name": "return_live_clears_old_curves",
+      "passed": true
+    },
+    {
+      "name": "unfinished_session_recovers_as_incomplete",
+      "passed": true
+    }
+  ],
+  "microphone_opened": false,
+  "fixtures": "synthetic 65-second session in temporary directory",
+  "dpr": 1.5
+}

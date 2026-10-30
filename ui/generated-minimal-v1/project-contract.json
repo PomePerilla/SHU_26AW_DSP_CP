@@ -1,0 +1,150 @@
+{
+  "project": "声境 / DSP Studio",
+  "primary_task": "连接麦克风，连续处理并试听语音，观察波形、频谱和组员识别结果",
+  "layout": "monitor-analysis",
+  "source_context": [
+    "audio_session",
+    "input_device",
+    "output_device",
+    "profile_name"
+  ],
+  "actions": {
+    "primary": "启动 / 停止实时处理",
+    "secondary": [
+      "导出最近30秒",
+      "学习环境噪声",
+      "注册组员"
+    ],
+    "analysis": [
+      "波形",
+      "频谱",
+      "运行详情"
+    ],
+    "more": [
+      "外观",
+      "使用说明"
+    ]
+  },
+  "states": [
+    "preparing",
+    "idle",
+    "running",
+    "noise_learning",
+    "enrolling",
+    "waiting",
+    "failed",
+    "stopped"
+  ],
+  "languages": [
+    "zh_CN"
+  ],
+  "minimum_window": [
+    900,
+    580
+  ],
+  "verification": {
+    "sizes": [
+      [
+        900,
+        580
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scales": [
+      1,
+      1.5,
+      2
+    ],
+    "performance": "保留独立音频进程；界面与后台声纹并发25秒，无新增音频欠载或超时；只读显示不重启音频"
+  },
+  "token_overrides": {
+    "fonts": {
+      "ui": [
+        "Microsoft YaHei UI",
+        "Segoe UI",
+        "sans-serif"
+      ],
+      "data": [
+        "Segoe UI",
+        "Microsoft YaHei UI",
+        "sans-serif"
+      ]
+    },
+    "colors": {
+      "light": {
+        "workspace": "#F4F6F8",
+        "surface": "#FFFFFF",
+        "bar": "#EEF1F5",
+        "text": "#252B34",
+        "muted": "#626E7E",
+        "border": "#DDE3EA",
+        "hover": "#EFF2F6",
+        "alternate": "#F8F9FB",
+        "disabled": "#8D97A5",
+        "primary": "#293341",
+        "primary_text": "#FFFFFF",
+        "primary_hover": "#394658",
+        "primary_pressed": "#1F2937",
+        "accent": "#425F86",
+        "selection": "#E6EDF5",
+        "error": "#AD4444",
+        "success": "#2B6B50",
+        "warning": "#805B1F"
+      },
+      "dark": {
+        "workspace": "#141619",
+        "surface": "#1B1E23",
+        "bar": "#22262C",
+        "text": "#E8ECF1",
+        "muted": "#A0A8B4",
+        "border": "#30363F",
+        "hover": "#272D35",
+        "alternate": "#20242A",
+        "disabled": "#747E8B",
+        "primary": "#E3E9F0",
+        "primary_text": "#1B2129",
+        "primary_hover": "#F0F4F8",
+        "primary_pressed": "#CBD5E1",
+        "accent": "#9DAFCA",
+        "selection": "#303B4B",
+        "error": "#F09595",
+        "success": "#89C9A8",
+        "warning": "#E2BD82"
+      }
+    },
+    "metrics": {
+      "font_size": 14,
+      "radius": 8,
+      "control_height": 36,
+      "row_height": 36,
+      "icon_size": 16
+    }
+  },
+  "presentation": {
+    "direction": "OpenStatus-inspired / restrained modern desktop",
+    "default_theme": "dark",
+    "semantic_colors": {
+      "light": {
+        "chart_raw": "#7E8897",
+        "chart_processed": "#4673AA",
+        "info": "#425F86"
+      },
+      "dark": {
+        "chart_raw": "#8994A3",
+        "chart_processed": "#8FB2E2",
+        "info": "#9DBBE3"
+      }
+    }
+  }
+}

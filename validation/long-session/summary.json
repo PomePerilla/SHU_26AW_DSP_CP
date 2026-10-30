@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-30",
+  "formal_name": "DSP Studio",
+  "theme": "ui/generated-etherscope-v3",
+  "features": {
+    "default_span_seconds": 10,
+    "horizontal_only_by_default": true,
+    "automatic_full_session_recording": true,
+    "four_float_wav_tracks": true,
+    "segment_seconds": 600,
+    "historical_playback": true,
+    "settings_persisted": true
+  },
+  "base_ui": [
+    {
+      "scale": 1.0,
+      "checks": 103,
+      "passed": true
+    },
+    {
+      "scale": 1.5,
+      "checks": 103,
+      "passed": true
+    },
+    {
+      "scale": 2.0,
+      "checks": 103,
+      "passed": true
+    }
+  ],
+  "session_ui": [
+    {
+      "scale": 1.0,
+      "checks": 38,
+      "passed": true
+    },
+    {
+      "scale": 1.5,
+      "checks": 38,
+      "passed": true
+    },
+    {
+      "scale": 2.0,
+      "checks": 38,
+      "passed": true
+    }
+  ],
+  "unit_tests": {
+    "passed": 20,
+    "seconds": 8.65
+  },
+  "native_frame": {
+    "passed": true,
+    "checks": 17,
+    "dpr": 1.5
+  },
+  "generated_files_consistent": 14,
+  "contrast_pairs": 20,
+  "python_compile": "passed",
+  "pip_check": "passed",
+  "hardware": {
+    "passed": true,
+    "duration_seconds": 120.09399999998277,
+    "captured_frames": 1921024,
+    "written_frames": 1921024,
+    "four_track_tail_exact": true,
+    "xruns": 0,
+    "deadline_misses": 0,
+    "playback_underruns": 0,
+    "temporary_recordings_removed": true
+  },
+  "windows_index_sharing_failure_fixed": true,
+  "formal_profiles_created": false,
+  "user_preferences_written_by_tests": false,
+  "limitations": [
+    "listening quality, real room AEC/double-talk, real-member identification, screen readers, cross-display mixed DPI, hours-long endurance not newly validated",
+    "parameter event frame is request time, not exact callback application",
+    "memory report is finite 120-second observation; index/parameter metadata grows with segments and edits",
+    "hardware playback gain zero; controlled screenshots contain synthetic audio"
+  ],
+  "passed": true
+}

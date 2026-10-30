@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-29",
+  "formal_name": "DSP Studio",
+  "qt_corner_radius": 0,
+  "source_name_and_timing_copy_clean": true,
+  "conditional_speaker_detail": {
+    "initially_hidden": true,
+    "message_visible_when_needed": true,
+    "cleared_hidden": true
+  },
+  "window_and_application_name_match": true,
+  "scales": [
+    {
+      "dpr": 1.0,
+      "assertions": 65,
+      "passed": true
+    },
+    {
+      "dpr": 1.5,
+      "assertions": 65,
+      "passed": true
+    },
+    {
+      "dpr": 2.0,
+      "assertions": 65,
+      "passed": true
+    }
+  ],
+  "audio_core_hashes": [
+    {
+      "file": "core.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio_process.py",
+      "unchanged": true
+    },
+    {
+      "file": "speaker.py",
+      "unchanged": true
+    }
+  ],
+  "generated_consistency": "14 files passed",
+  "contrast_pairs": 20,
+  "python_compile_check": "passed",
+  "microphone_opened_this_round": false,
+  "boundaries": [
+    "offscreen layout and controlled UI states",
+    "native mixed DPI and screen reader not checked"
+  ],
+  "passed": true
+}

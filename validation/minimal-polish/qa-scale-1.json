@@ -1,0 +1,299 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "idle_start_matches_action",
+      "passed": true
+    },
+    {
+      "name": "empty_export_disabled",
+      "passed": true
+    },
+    {
+      "name": "empty_member_state",
+      "passed": true
+    },
+    {
+      "name": "empty_plots_have_next_step",
+      "passed": true
+    },
+    {
+      "name": "light_900_actual_size",
+      "passed": true
+    },
+    {
+      "name": "light_900_primary_visible",
+      "passed": true
+    },
+    {
+      "name": "light_900_plot_and_result_visible",
+      "passed": true
+    },
+    {
+      "name": "light_900_monitor_visible",
+      "passed": true
+    },
+    {
+      "name": "light_900_header_buttons_do_not_overlap",
+      "passed": true
+    },
+    {
+      "name": "light_900_button_text_fits",
+      "passed": true
+    },
+    {
+      "name": "light_1024_actual_size",
+      "passed": true
+    },
+    {
+      "name": "light_1024_primary_visible",
+      "passed": true
+    },
+    {
+      "name": "light_1024_plot_and_result_visible",
+      "passed": true
+    },
+    {
+      "name": "light_1024_monitor_visible",
+      "passed": true
+    },
+    {
+      "name": "light_1024_header_buttons_do_not_overlap",
+      "passed": true
+    },
+    {
+      "name": "light_1024_button_text_fits",
+      "passed": true
+    },
+    {
+      "name": "light_1440_actual_size",
+      "passed": true
+    },
+    {
+      "name": "light_1440_primary_visible",
+      "passed": true
+    },
+    {
+      "name": "light_1440_plot_and_result_visible",
+      "passed": true
+    },
+    {
+      "name": "light_1440_monitor_visible",
+      "passed": true
+    },
+    {
+      "name": "light_1440_header_buttons_do_not_overlap",
+      "passed": true
+    },
+    {
+      "name": "light_1440_button_text_fits",
+      "passed": true
+    },
+    {
+      "name": "light_icons_present",
+      "passed": true
+    },
+    {
+      "name": "light_icon_buttons_labeled",
+      "passed": true
+    },
+    {
+      "name": "dark_900_actual_size",
+      "passed": true
+    },
+    {
+      "name": "dark_900_primary_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_900_plot_and_result_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_900_monitor_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_900_header_buttons_do_not_overlap",
+      "passed": true
+    },
+    {
+      "name": "dark_900_button_text_fits",
+      "passed": true
+    },
+    {
+      "name": "dark_1024_actual_size",
+      "passed": true
+    },
+    {
+      "name": "dark_1024_primary_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_1024_plot_and_result_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_1024_monitor_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_1024_header_buttons_do_not_overlap",
+      "passed": true
+    },
+    {
+      "name": "dark_1024_button_text_fits",
+      "passed": true
+    },
+    {
+      "name": "dark_1440_actual_size",
+      "passed": true
+    },
+    {
+      "name": "dark_1440_primary_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_1440_plot_and_result_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_1440_monitor_visible",
+      "passed": true
+    },
+    {
+      "name": "dark_1440_header_buttons_do_not_overlap",
+      "passed": true
+    },
+    {
+      "name": "dark_1440_button_text_fits",
+      "passed": true
+    },
+    {
+      "name": "dark_icons_present",
+      "passed": true
+    },
+    {
+      "name": "dark_icon_buttons_labeled",
+      "passed": true
+    },
+    {
+      "name": "theme_keyboard_activation",
+      "passed": true
+    },
+    {
+      "name": "theme_retains_controls",
+      "passed": true
+    },
+    {
+      "name": "theme_retains_tabs",
+      "passed": true
+    },
+    {
+      "name": "spectrum_axis_retains_hz_range",
+      "passed": true
+    },
+    {
+      "name": "effects_bound_to_engine",
+      "passed": true
+    },
+    {
+      "name": "manage_members_opens_registration",
+      "passed": true
+    },
+    {
+      "name": "profile_refresh_retains_identity",
+      "passed": true
+    },
+    {
+      "name": "profile_score_updates",
+      "passed": true
+    },
+    {
+      "name": "numeric_columns_aligned",
+      "passed": true
+    },
+    {
+      "name": "diagnostics_opens",
+      "passed": true
+    },
+    {
+      "name": "unavailable_data_not_zero",
+      "passed": true
+    },
+    {
+      "name": "escape_closes_only_diagnostics",
+      "passed": true
+    },
+    {
+      "name": "button_starts_real_ui_state",
+      "passed": true
+    },
+    {
+      "name": "running_locks_devices",
+      "passed": true
+    },
+    {
+      "name": "noise_command_bound",
+      "passed": true
+    },
+    {
+      "name": "captured_data_enables_export",
+      "passed": true
+    },
+    {
+      "name": "real_data_hides_empty_labels",
+      "passed": true
+    },
+    {
+      "name": "wave_tooltip_uses_data",
+      "passed": true
+    },
+    {
+      "name": "shared_action_stops",
+      "passed": true
+    },
+    {
+      "name": "stopped_audio_retains_export",
+      "passed": true
+    },
+    {
+      "name": "error_uses_text_and_color",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "light-900x580-scale-1.png",
+    "light-1024x768-scale-1.png",
+    "light-1440x900-scale-1.png",
+    "dark-900x580-scale-1.png",
+    "dark-1024x768-scale-1.png",
+    "dark-1440x900-scale-1.png",
+    "dark-reference-spectrum-scale-1.png",
+    "dark-members-controlled-scale-1.png",
+    "light-running-controlled-scale-1.png",
+    "light-error-controlled-scale-1.png"
+  ],
+  "requested_scale": "1",
+  "qt_scale_factor": "1",
+  "window_device_pixel_ratio": 1.0,
+  "screens": [
+    {
+      "name": "",
+      "logical_geometry": [
+        0,
+        0,
+        800,
+        800
+      ],
+      "dpr": 1.0,
+      "logical_dpi": 96.0
+    }
+  ],
+  "controlled_states": [
+    "profiles",
+    "audio_transport",
+    "running_waveform"
+  ],
+  "real_microphone_opened": false
+}

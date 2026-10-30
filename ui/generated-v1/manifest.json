@@ -1,0 +1,18 @@
+{
+  "pipeline_version": "1.0.0",
+  "files": {
+    "LICENSE": "239d93df904cd534c4ada251569644f2b658b2d305d729f3f1a217e491230f29",
+    "components.css": "b8a64aa4b246f049a1863075986feafa3bb44176eba1ec816c9dd0860fae510c",
+    "contrast.json": "1b8af0388be1b59cd63e735686089b11e1649594309af327c926b59ef4e815d8",
+    "index.html": "4b034b093233ff371312abdf1235f6bed77887838a497ba94cee562b47408b3d",
+    "project-contract.json": "62f80c3bcbff0f0d1963e01ef37faf87904664f8d41b52bc26923c68742f85d9",
+    "qt/CMakeLists.txt": "79cf31e00e7ce1d443c99f8084236c7421a79ac982ee0a08943bef162b3aced9",
+    "qt/flow_layout.h": "92522b151486b69f71dddf7484a3dc54a3ebb51ed8e15a9a761c5e96f41279b5",
+    "qt/main.cpp": "c0df3c68933a8d776124e9dff5fd4d1bbd32ffbe045b7c66d2e4cc9b2e21a863",
+    "qt/theme-dark.qss": "b71b50800a4f9089f1800ee265cfb2a509de15894352d09235cca02a9e65b008",
+    "qt/theme-light.qss": "61c2a992b653b876429ce508fcacad81dfd1a6829e1b90a8356d43fc0d15729c",
+    "qt/workbench_style.h": "d8dd7301695b378485a3d1002a2c8b055a7504892863ac5cb57261b5a3b873cb",
+    "tokens.css": "666d6e46842371cf0c28b5c5f972aef1c7d5b8aaf167ff8d509b112607206511",
+    "tokens.json": "2a39f91da7c46e78cb808e04fd403f01190fc18cb5f8ee6512ce3378b0a1687a"
+  }
+}

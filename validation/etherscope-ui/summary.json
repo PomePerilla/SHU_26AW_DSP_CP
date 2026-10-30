@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-29",
+  "formal_name": "DSP Studio",
+  "reference_program": "D:\\PRJ\\20261012_计算机网络\\output\\EtherScope-2.3.0-preview\\EtherScope.exe",
+  "reference_executable_sha256": "b351b3d6da015d830f44ff6936b2fb76c3bf44b15041046e3b84bae9e9ed5c4c",
+  "reference_source_hashes": [
+    {
+      "file": "src/ui/style.h",
+      "sha256": "5da10393ec2e5a4115a15ca564f9e62b33c942789549ad692c07410737219d49"
+    },
+    {
+      "file": "src/ui/main_window_theme.cpp",
+      "sha256": "6d1227db228e3175c3765d71116d9d13b6808fa0dc06715b300bd123f24fcc47"
+    },
+    {
+      "file": "src/ui/window_title_bar.cpp",
+      "sha256": "ab525372d8ec3a1f5584f4a5a29e4a559777df4cc5eaebcc6918e551758c9be7"
+    },
+    {
+      "file": "src/ui/main_window_frame.cpp",
+      "sha256": "5f236cad1d9b889f92ac1e9807bbf986a2a6a378e01893c7b36a9eb44e3fd763"
+    }
+  ],
+  "current_theme": "ui/generated-etherscope-v1",
+  "qt_corner_radius": 0,
+  "layout_checks": [
+    {
+      "dpr": 1.0,
+      "assertions": 65,
+      "passed": true
+    },
+    {
+      "dpr": 1.5,
+      "assertions": 65,
+      "passed": true
+    },
+    {
+      "dpr": 2.0,
+      "assertions": 65,
+      "passed": true
+    }
+  ],
+  "native_window_checks": {
+    "platform": "windows",
+    "dpr": 2.0,
+    "assertions": 14,
+    "passed": true
+  },
+  "generated_files_consistent": 14,
+  "contrast_pairs": 20,
+  "dsp_regression": {
+    "passed": 8,
+    "seconds": 1.14
+  },
+  "python_compile_check": "passed",
+  "audio_and_dependency_hashes": [
+    {
+      "file": "core.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio_process.py",
+      "unchanged": true
+    },
+    {
+      "file": "speaker.py",
+      "unchanged": true
+    },
+    {
+      "file": "requirements.txt",
+      "unchanged": true
+    },
+    {
+      "file": "requirements-lock.txt",
+      "unchanged": true
+    }
+  ],
+  "live_audio": {
+    "duration_seconds": 25.046999999991385,
+    "embedding_jobs": 13,
+    "xruns": 0,
+    "deadline_misses": 0,
+    "clipped_blocks": 0,
+    "passed": true
+  },
+  "profiles_file_exists": false,
+  "boundaries": [
+    "UI transport/profile fixtures are controlled, not team-member results",
+    "native cross-monitor DPI drag, snap, screen reader, non-Windows frame not verified",
+    "listening, real room AEC, real team accuracy, endurance not newly accepted"
+  ],
+  "passed": true
+}

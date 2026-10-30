@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-29",
+  "generated_theme": "ui/generated-minimal-v1",
+  "passed": true,
+  "layout_state_checks": [
+    {
+      "qt_dpr": 1.0,
+      "assertions": 65,
+      "passed": true
+    },
+    {
+      "qt_dpr": 1.5,
+      "assertions": 65,
+      "passed": true
+    },
+    {
+      "qt_dpr": 2.0,
+      "assertions": 65,
+      "passed": true
+    }
+  ],
+  "contrast_pairs": 20,
+  "dsp_regression": {
+    "passed": 8,
+    "seconds": 1.25
+  },
+  "python_compile_check": "passed",
+  "audio_and_dependency_hashes": [
+    {
+      "file": "core.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio.py",
+      "unchanged": true
+    },
+    {
+      "file": "audio_process.py",
+      "unchanged": true
+    },
+    {
+      "file": "speaker.py",
+      "unchanged": true
+    },
+    {
+      "file": "requirements.txt",
+      "unchanged": true
+    },
+    {
+      "file": "requirements-lock.txt",
+      "unchanged": true
+    }
+  ],
+  "live_audio_seconds": 25.07799999997951,
+  "live_xruns": 0,
+  "live_deadline_misses": 0,
+  "profiles_file_exists": false,
+  "native_ui": "started and accessibility tree read; activation failed after refresh, native click verification stopped",
+  "boundaries": [
+    "offscreen UI transport/profile scenarios are controlled fixtures",
+    "native screenshot partially occluded by system notification panel",
+    "mixed-monitor DPI, screen reader, listening, real member accuracy, room AEC, endurance not newly verified"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "layout": "monitor-analysis",
+  "sizes": [
+    [
+      900,
+      580
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "scale_results": [
+    {
+      "scale": "1",
+      "passed": true,
+      "assertions": 41
+    },
+    {
+      "scale": "1.5",
+      "passed": true,
+      "assertions": 41
+    },
+    {
+      "scale": "2",
+      "passed": true,
+      "assertions": 41
+    }
+  ],
+  "live": {
+    "date": "2026-10-28",
+    "gui_pid": 73932,
+    "audio_pid": 52456,
+    "duration_seconds": 25.01500000001397,
+    "model_embedding_jobs_submitted": 13,
+    "stats": {
+      "input_dbfs": -90.27519989013672,
+      "output_dbfs": -107.42304992675781,
+      "reference_dbfs": -160.0,
+      "xruns": 0,
+      "deadline_misses": 0,
+      "clipped_blocks": 0,
+      "noise_profile": true,
+      "noise_learning": false,
+      "aec_adapt": true,
+      "processing_ms": 0.5670000100508332
+    },
+    "error": "",
+    "audio_samples_seen": 385280,
+    "peak_observed_processing_ms": 0.8631999953649938,
+    "scope": "live Qt plots, background public-clip embeddings, actual microphone, silent output",
+    "raw_audio_saved": false,
+    "monitor_or_reference_played": false,
+    "passed": true
+  },
+  "algorithm_regression": "8 passed",
+  "native_windows": "light, dark, diagnostics visually inspected; microphone idle",
+  "not_executed": [
+    "native cross-monitor mixed-DPI dragging",
+    "real team-member and room-acoustic acceptance",
+    "10-minute endurance"
+  ]
+}

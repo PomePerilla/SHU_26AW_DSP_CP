@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "model_prepared",
+      "passed": true
+    },
+    {
+      "name": "native_frame_initialized",
+      "passed": true
+    },
+    {
+      "name": "normal_title_drag_hit",
+      "passed": true
+    },
+    {
+      "name": "close_button_not_drag_area",
+      "passed": true
+    },
+    {
+      "name": "device_input_not_drag_area",
+      "passed": true
+    },
+    {
+      "name": "top_left_resize_hit",
+      "passed": true
+    },
+    {
+      "name": "maximize_button",
+      "passed": true
+    },
+    {
+      "name": "maximize_respects_taskbar_work_area",
+      "passed": true
+    },
+    {
+      "name": "maximize_label_updates",
+      "passed": true
+    },
+    {
+      "name": "restore_button",
+      "passed": true
+    },
+    {
+      "name": "title_double_click_maximizes",
+      "passed": true
+    },
+    {
+      "name": "minimize_button",
+      "passed": true
+    },
+    {
+      "name": "theme_preserves_window_controls",
+      "passed": true
+    },
+    {
+      "name": "close_button_stops_ui_tasks",
+      "passed": true
+    }
+  ],
+  "platform": "windows",
+  "dpr": 2.0,
+  "maximized_outer_rect": [
+    -13,
+    -13,
+    3085,
+    1837
+  ],
+  "maximized_client_rect": [
+    0,
+    0,
+    3072,
+    1824
+  ],
+  "work_area": [
+    0,
+    0,
+    3072,
+    1824
+  ],
+  "microphone_opened": false,
+  "scope": "Qt own-process caption actions and Windows native frame hit tests; no external app input"
+}
