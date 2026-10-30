@@ -9,7 +9,7 @@ def main():
     from PySide6.QtWidgets import QApplication, QMessageBox
     from dsp_lab.ui import MainWindow
     app = QApplication(sys.argv)
-    app.setApplicationName("DSP Studio")
+    app.setApplicationName("SHU_26AW_DSP_CP")
     app.setStyle("Fusion")
     try:
         window = MainWindow(ROOT)

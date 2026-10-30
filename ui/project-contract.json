@@ -1,5 +1,5 @@
 {
-  "project": "DSP Studio",
+  "project": "SHU_26AW_DSP_CP",
   "primary_task": "连接麦克风，连续处理并试听语音，观察波形、频谱和组员识别结果",
   "layout": "monitor-analysis",
   "source_context": [

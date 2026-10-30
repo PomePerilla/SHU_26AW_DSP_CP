@@ -1,3 +1,3 @@
-"""DSP Studio: a local, real-time course project."""
+"""SHU_26AW_DSP_CP."""
 
 __version__ = "0.1.0"

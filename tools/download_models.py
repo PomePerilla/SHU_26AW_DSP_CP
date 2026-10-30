@@ -25,7 +25,7 @@ def download(name, folder):
     if not target.exists():
         part = target.with_suffix(target.suffix + ".part")
         print(f"Downloading {name}", flush=True)
-        request = urllib.request.Request(BASE + name, headers={"User-Agent": "DSP-Studio-Course/0.1"})
+        request = urllib.request.Request(BASE + name, headers={"User-Agent": "SHU_26AW_DSP_CP/0.1"})
         with urllib.request.urlopen(request, timeout=60) as response, part.open("wb") as output:
             while chunk := response.read(1024 * 1024):
                 output.write(chunk)

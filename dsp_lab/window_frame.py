@@ -1,7 +1,7 @@
 """Compact Qt title bar and Windows frame, adapted from EtherScope 2.3.0.
 
 Copyright (c) 2026 EtherScope contributors. MIT license; see
-ui/reference-licenses/EtherScope-MIT.txt. DSP Studio uses its own waveform mark.
+ui/reference-licenses/EtherScope-MIT.txt.
 """
 import sys
 from PySide6.QtCore import Qt, QEvent, QPoint, QRectF

@@ -22,7 +22,7 @@ def main():
 
     app = QApplication([])
     app.setStyle("Fusion")
-    app.setApplicationName("DSP Studio")
+    app.setApplicationName("SHU_26AW_DSP_CP")
     if app.platformName() != "windows":
         raise RuntimeError("This check needs the native Windows Qt platform")
     folder = ROOT / "validation/long-session"

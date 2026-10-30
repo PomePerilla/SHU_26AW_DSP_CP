@@ -67,7 +67,7 @@ class MainWindow(StudioFeatures, FrameWindow):
     def __init__(self, root, test_mode=False):
         super().__init__()
         self.root = root
-        self.setWindowTitle("DSP Studio")
+        self.setWindowTitle("SHU_26AW_DSP_CP")
         self.setMinimumSize(900, 580)
         self.theme_name = "dark"
         self.diagnostics = None

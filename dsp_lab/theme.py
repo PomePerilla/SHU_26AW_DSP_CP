@@ -1,4 +1,4 @@
-"""EtherScope 2.3.0 workbench style adapted to DSP Studio's audio interface."""
+"""SHU_26AW_DSP_CP workbench theme."""
 import json
 from functools import lru_cache
 from PySide6.QtCore import Qt, QRectF
@@ -39,7 +39,7 @@ def outline_icon(name, color, disabled_color):
 
 
 def apply_theme(root, theme="light"):
-    generated = root / "ui" / "generated-etherscope-v3"
+    generated = root / "ui" / "generated-shu-v1"
     tokens = json.loads((generated / "tokens.json").read_text(encoding="utf-8"))
     c = tokens["colors"][theme]
     contract = json.loads((generated / "project-contract.json").read_text(encoding="utf-8"))
